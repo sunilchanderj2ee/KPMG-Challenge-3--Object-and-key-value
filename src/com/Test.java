@@ -10,7 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		// create nested json object java string to Json object step1
-		String str = "{ \"a\":{\"b\":{\"c\":\"KPMG challenge-3 has been done successfully \"}}}";
+		String str = "{ \"a\":{\"b\":{\"c\":\"KPMG challenge-3 \"}}}";
 		System.out.printf("Json String %s", str);
 		JSONObject strJsonObject = new JSONObject(str);
 		
@@ -23,7 +23,7 @@ while(true) {
 		
 if(key.equals("exit")) {
 	
-	System.out.printf(" Thank you very much.");
+	System.out.printf(" Thank you very much.KPMG challenge-3 has been done successfully");
 	return;}
 System.out.printf("Key is :%s%n ", key);
 
