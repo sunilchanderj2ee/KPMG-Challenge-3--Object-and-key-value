@@ -10,7 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		// create nested json object java string to Json object step1
-		String str = "{ \"a\":{\"b\":{\"c\":\"KPMG\"}}}";
+		String str = "{ \"a\":{\"b\":{\"c\":\"KPMG challenge-3 has been done successfully \"}}}";
 		System.out.printf("Json String %s", str);
 		JSONObject strJsonObject = new JSONObject(str);
 		
